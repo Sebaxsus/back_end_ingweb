@@ -19,9 +19,11 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  //'/': { view: 'pages/homepage' },
+  '/': { view: 'homepage' },
+  '/Estudiantes/vista': {view: 'Estudiantes/vista'},
+  '/Estudiantes/mostrar': {view: 'Estudiantes/mostrar'}
   //'/': '../../../frontendPF/index.html',
-  '/': 'http://127.0.0.1:5500/index.html'
+  //'/': 'http://127.0.0.1:5500/index.html'
   //'get /': 'https://g2e09ee6deb0680-pfdb.adb.us-ashburn-1.oraclecloudapps.com/ords/admin/estudiantes/estudiantes/get',
   //'get/api/Estudiantes': 'EstudiantesController.js'
 

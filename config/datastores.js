@@ -51,7 +51,8 @@ module.exports.datastores = {
     adapter: require('sails-mysql'),
     url: 'mysql://pruebas:pruebas11@localhost:3306/estudiantes',
     //url: 'mysql://root:WfjlitykTzWhL4leboQA@containers-us-west-10.railway.app:5847/railway:',
-
+    //adapter: require('sails-mongo'),
+    //url: 'mongodb+srv://testU:testU@cluster0.ec96bzu.mongodb.net/?retryWrites=true&w=majority'
   },
 
 

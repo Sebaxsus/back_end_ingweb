@@ -21,12 +21,16 @@ module.exports.routes = {
 
   '/': { view: 'homepage' },
   '/Estudiantes/vista': {view: 'Estudiantes/vista'},
-  '/Estudiantes/mostrar': {view: 'Estudiantes/mostrar'}
+  '/Estudiantes/mostrar': {view: 'Estudiantes/mostrar'},
   //'/': '../../../frontendPF/index.html',
   //'/': 'http://127.0.0.1:5500/index.html'
   //'get /': 'https://g2e09ee6deb0680-pfdb.adb.us-ashburn-1.oraclecloudapps.com/ords/admin/estudiantes/estudiantes/get',
   //'get/api/Estudiantes': 'EstudiantesController.js'
 
+  'POST /estudiantes': 'EstudiantesController.create',
+  'GET /estudiantes': 'EstudiantesController.find',
+  'PUT /estudiantes/:id': 'EstudiantesController.update',
+  'DELETE /estudiantes/:id': 'EstudiantesController.delete',
 
   /***************************************************************************
   *                                                                          *

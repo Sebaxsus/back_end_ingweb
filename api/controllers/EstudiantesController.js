@@ -68,7 +68,7 @@ module.exports = {
         id : req.params.id
     },attributes)
         .then(estudiante => {
-            res.ok(estudiante)
+           res.ok(estudiante)
         })
         .catch(err => res.serverError(err));
    }
